@@ -1,0 +1,22 @@
+
+.main {
+	text-align: center;
+	margin-top: 30px;
+	border:	4px solid #faa17f;
+	padding: 10px;
+}
+h1 {
+	color: #ee713b;
+}
+.main input {
+	border-color: #faa17f;
+	text-align: center;
+}
+.btn {
+	margin-top: 10px;
+	background-color: #faa17f;
+	color: white;
+}
+img {
+	margin: 30px auto;
+}
