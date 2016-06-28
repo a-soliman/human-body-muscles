@@ -17,6 +17,38 @@ h1 {
 	background-color: #faa17f;
 	color: white;
 }
-img {
+.result{
+	margin-top: 20px;
+}
+#musImage {
+	width: 70%;
+}
+#musImageWrong {
+	float: right;
+	width: 30%;
+}
+.wrong {
+	font-size: 2em;
+	background-color: red;
+	color: white;
+	text-align: center;
+	margin-top: 25px;
+}
+.result h2 {
+	text-decoration: underline;
+	color: #ee713b;
+}
+.humanB {
 	margin: 30px auto;
+}
+
+
+/*Media Quries for removing the wrong entry image */
+@media (max-width: 769px) {
+	#musImageWrong {
+		display: none;
+	}
+	.wrong {
+		font-size: 1em;
+	}
 }
